@@ -16,7 +16,7 @@ nanoc:
 
 build:
 	FROM +nanoc
-  ARG base_url=infrastructure-website
+    ARG base_url=infrastructure.openrobotics.org
 	RUN INFRA_BASE_URL=$base_url bundle exec nanoc
 	SAVE ARTIFACT output AS LOCAL output
 
