@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 preprocess do
-  config[:base_url] = ENV['INFRA_BASE_URL'] ? "/#{ENV['INFRA_BASE_URL']}" : ''
+  config[:base_url] = ENV['INFRA_BASE_URL'] && !ENV['INFRA_BASE_URL'].empty? ? "/#{ENV['INFRA_BASE_URL']}" : ''
 end
 
 # Individual pages

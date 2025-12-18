@@ -16,8 +16,8 @@ nanoc:
 
 build:
 	FROM +nanoc
-    ARG base_url=""
-	RUN INFRA_BASE_URL=$base_url bundle exec nanoc
+    ARG base_url_path=
+	RUN INFRA_BASE_URL=$base_url_path bundle exec nanoc
 	SAVE ARTIFACT output AS LOCAL output
 
 
