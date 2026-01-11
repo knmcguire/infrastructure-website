@@ -14,7 +14,7 @@ We welcome contributions of all kinds!
 Whether you're a seasoned developer or a curious enthusiast, there are opportunities for everyone.
 Get involved by reporting issues, suggesting improvements, or diving into the codebase. 
 
-To learn more about how to contribute, check out the contribution guidelines on each project's [GitHub repositories](/repos) or join our community forums for discussions and support: [discourse.ros.org](https://discourse.ros.org/), [OSRF Community Discord](https://discord.com/invite/RtJeHT8mXQ).
+To learn more about how to contribute, check out the contribution guidelines on each project's [GitHub repositories](/repos) or join our community forums for discussions and support: [discourse.ros.org](https://discourse.ros.org/), [OSRF Community Zulip](https://openrobotics.zulipchat.com/).
 
 If you would like to know more about the project, please check out the following resources:
 
