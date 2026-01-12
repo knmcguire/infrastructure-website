@@ -2,6 +2,8 @@
 
 Welcome to the [OSRA](https://osralliance.org/) Infrastructure Project. This project aims to support the ROS and Gazebo ecosystem by providing essential infrastructure, including buildfarms, documentation, and tools for ROS and gazebo packages.
 
+See the deployed website on: https://infrastructure.openrobotics.org/
+
 ## Project Structure
 
 This project uses [Nanoc](https://nanoc.app/), a static site generator written in Ruby, for managing and generating the project website. The website content is written in Markdown and ERB templates.
